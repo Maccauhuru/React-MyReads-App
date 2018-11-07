@@ -1,14 +1,10 @@
 # My Reads
 
-I created this website as a project for my Front-End Web Development Nanodegree from Udacity. This website allows the user to keep track of books that have been read, are currently being read, or that he or she would like to read.
-
-## Run live
-
-Run it live at [iverson.io/projects/myreads](https://iverson.io/projects/myreads)
+Front-End Web Development Nanodegree from Udacity. This website allows the user to keep track of books that have been read, and the ones currently being read.
 
 ## Download
-
-These instructions will allow you to get a copy of the project that runs on your local machine.
+ 
+* git clone https://github.com/Maccauhuru/React-MyReads-App
 
 ### Prerequisites
 
@@ -18,7 +14,7 @@ These instructions will allow you to get a copy of the project that runs on your
 ### Installing
 
 Instructions to clone and run the project:
-1. In Terminal, clone the git project using `$ git clone https://github.com/grantiverson/myreads.git`.
+1. In Terminal, clone the git project using `$ git clone https://github.com/Maccauhuru/React-MyReads-App`.
 2. Navigate to the root directory for the project.
 3. Run the command `npm install` to install the necessary dependancies
 3. Run the command `npm start` to start the server. This will automatically open the website in your browser.
@@ -33,14 +29,6 @@ Instructions to clone and run the project:
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Markup Language
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Styling
 * [Google Chrome](https://www.google.com/chrome/) - Browser and Debugging Tool
-
-### How I made this app
-
-I began by scaffolding out the app using [Create React App](https://github.com/facebookincubator/create-react-app). Then I downloaded Udacity's [BooksAPI.js](https://github.com/udacity/reactnd-project-myreads-starter/tree/master/src/booksAPI.js), which allows me to retrieve data from a mock server. I wrote the code that fetches the array of books from the Udacity server, then maps over the array to display each book on the appropriate shelf according to its 'shelf' key. Each book has a 'select' tag that allows for switching shelves, or removing the book altogether. Once I got this functionality working, I added a component to search for books to add to the shelf. This component dynamically searches the server for books whose titles match the inputted query as it is entered. I used [React Router](https://github.com/ReactTraining/react-router) to sync the URL with the app's state so that the back button and bookmark browser features still work.
-
-## Author
-
-* **Grant Iverson** - [GitHub](https://github.com/grantiverson)
 
 ### Acknowledgements
 
